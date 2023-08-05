@@ -1,0 +1,165 @@
+/* Website Styles */
+/* #0c3462 #845663 #231f1e #eea6a1 #737d97 */
+
+* {
+    font-size: 100%;
+    margin: auto;
+    line-height: 2;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ff91af;
+    background-image: url(../img/balloon.jpg);
+    background-size: cover;
+}
+
+body {
+    background-color: #eea6a1;
+    color: #231f1e;
+    font-family: arial;
+    font-size: 14px;
+    background-image: url(../img/sakura.webp);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1 {
+    color: #ff91af;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 55px; 
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    color: #845663;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+header, footer {
+    background-color: #eea6a1;
+}
+
+header, section, footer {
+    border: 1px solid pink;
+    background-color: white;
+    margin: 30px;
+    padding: 10px;
+}
+
+p {
+    line-height: 1;
+    background-image: none;
+    background-color: transparent;
+}
+
+nav ul {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100%;
+    background: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav ul li {
+    display: block;
+    flex: 0 1 auto;
+    list-style-type: none;
+    background: none;
+    color: #ff91af;
+    font-size: 16px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav a:hover { 
+    text-decoration: underline;
+}
+
+nav a:visited {
+    color: #0c3462;
+}
+
+.trees {
+    text-align: center;
+}
+
+.top {
+    font-size: 21pt;
+    color: red;
+    text-decoration: line-through;
+}
+
+#gibberish {
+    background-color: #737d97;
+    color: rgb(20, 0, 0);
+    margin: auto;
+}
+
+.container {
+    /* max-width: 1000px; */
+    margin: 0 auto;
+    background-image: url(../img/sakura.webp);
+}
+
+.jana { 
+    align-content: center;
+}
+
+.small {
+    font-size: xx-small;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.dinosaur {
+    background-image: url(../img/pexels-cup-of-couple-8014624.jpg);
+    background-size: contain;
+}
+
+.tib {
+    background-image: linear-gradient(to bottom right, #3C7394, #90AA04);
+}
+
+.Lumberjack {
+    background-image: linear-gradient(black, red, black, red);
+}
+
+.mermaid {
+    background-image: url(../img/background-17520_1920.jpg);
+    background-size: cover;
+}
+
+.info {
+    font-size: 18;
+}
+
+section {
+    background: none;
+    border: none;
+}
